@@ -36,7 +36,7 @@ module.exports = {
         currency: "USD",
         outputFile: "gas-report.txt",
         noColors: true,
-        //coinmarketcap: process.env.COINMARKETCAP_API_KEY,
+        coinmarketcap: COINMARKETCAP_API_KEY,
     },
     etherscan: {
         apiKey: ETHERSCAN_API_KEY,
